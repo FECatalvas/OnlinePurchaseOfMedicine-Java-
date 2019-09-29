@@ -55,7 +55,6 @@ public class Feature {
         String password = scanner.nextLine();
 
         user.add(new User(name, address, age, username, password));
-
     }
 
     public void medicineMenu() {

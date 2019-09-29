@@ -16,7 +16,8 @@ public class User {
     private String username;
     private String password;
     private int discount;
-
+    
+    
     public User() {
     }
 
@@ -85,5 +86,7 @@ public class User {
     public void setDiscount(int discount) {
         this.discount = discount;
     }
+    
+    
 
 }

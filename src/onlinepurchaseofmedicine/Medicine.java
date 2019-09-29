@@ -10,14 +10,14 @@ package onlinepurchaseofmedicine;
  * @author 2ndyrGroupB
  */
 public class Medicine {
+
     private String brandName;
     private String genericName;
     private int price;
 
     public Medicine() {
     }
-    
-    
+
     public Medicine(String brandName, String genericName, int price) {
         this.brandName = brandName;
         this.genericName = genericName;
@@ -47,7 +47,9 @@ public class Medicine {
     public int getPrice() {
         return price;
     }
-    
+
+    @Override
+    public String toString() {
+        return ("Brand Name: " + brandName + "\t" + "Generic Name: " + genericName + "\t" + "Price: " + price);
+    }
 }
-
-
