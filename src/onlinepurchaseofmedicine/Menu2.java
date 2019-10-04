@@ -20,7 +20,7 @@ public class Menu2 {
     Scanner scanner1 = new Scanner(System.in);
 
     public void firstMenu() {
-        System.out.println("\t\tWELCOME TO RED PHARMACY\n\nPlease register first before you order!\n");
+        System.out.println("\t\t--------------------WELCOME TO RED PHARMACY--------------------\n\nPlease register first before you order!\n");
         System.out.print("Press 0 to Exit \nPress 1 to login\nPress 2 to register:\nEnter Choice: ");
         int choice = scanner.nextInt();
         while (choice != 0) {
@@ -47,7 +47,7 @@ public class Menu2 {
 
     public void secMenu() {
         Scanner Scanners = new Scanner(System.in);
-        System.out.print("\n\t\t=====================DASHBOARD====================\nPress 0 to Exit \nPress 1 to Search Medicine\nPress 2 to Order Medicine\nEnter Choice: ");
+        System.out.print("\n--------------------DASHBOARD--------------------\nPress 0 to Exit \nPress 1 to Search Medicine\nPress 2 to Order Medicine\nEnter Choice: ");
         int choice1 = scanner1.nextInt();
         while (choice1 != 0) {
             Inventory i = new Inventory();

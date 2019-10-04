@@ -73,7 +73,7 @@ public class User {
     ArrayList<User> user = new ArrayList();
 
     public User loginMenu() {
-        System.out.println("\nLOGIN\n");
+        System.out.println("\n--------------------LOGIN-----------------------");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
@@ -94,7 +94,7 @@ public class User {
     public void registerMenu() {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
-        System.out.println("---------------------------REGISTER---------------------------");
+        System.out.println("--------------------REGISTER--------------------");
 
         System.out.print("Enter name: ");
         String name = scanner.nextLine();

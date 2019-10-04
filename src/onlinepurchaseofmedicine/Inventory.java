@@ -7,10 +7,7 @@ package onlinepurchaseofmedicine;
 
 import java.util.*;
 
-/**
- *
- * @author 2ndyrGroupB
- */
+
 public class Inventory {
 
     private ArrayList<Medicine> inventForBodyPain = new ArrayList();
@@ -23,7 +20,7 @@ public class Inventory {
         inventForBodyPain.add(new BodyPainMedicine("Ibuprofen", "Alaxan", 12));
         inventForBodyPain.add(new BodyPainMedicine("Ibuprofen", "Medicol", 12));
         Iterator itrPain = inventForBodyPain.iterator();
-        System.out.println("\t===============LIST OF BODY PAIN MEDICINE================");
+        System.out.println("----------LIST OF BODY PAIN MEDICINE----------");
         while (itrPain.hasNext()) {
             System.out.println(itrPain.next());
         }
@@ -35,7 +32,7 @@ public class Inventory {
         inventForCough.add(new CoughMedicine("Butamirate", "Sinecod", 12));
         inventForCough.add(new CoughMedicine("Ambroxol", "Ambrolex", 12));
         Iterator itrCough = inventForCough.iterator();
-        System.out.println("\t===============LIST OF COUGH MEDICINE================");
+        System.out.println("\t-----------LIST OF COUGH MEDICINE-------------");
         while (itrCough.hasNext()) {
             System.out.println(itrCough.next());
         }

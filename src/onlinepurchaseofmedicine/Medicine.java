@@ -50,6 +50,6 @@ public class Medicine {
 
     @Override
     public String toString() {
-        return ("Brand Name: " + brandName + "\t" + "Generic Name: " + genericName + "\t" + "Price: " + price);
+        return ("Brand Name\t|  "+ brandName  + "\t\t" + "Generic Name| " + genericName + "\t" + "Price| " + price);
     }
 }
