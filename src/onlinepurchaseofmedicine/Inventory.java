@@ -65,49 +65,5 @@ public class Inventory {
         }
         System.out.println();
     }
-
-    public class CoughMedicine extends Medicine {
-
-        public CoughMedicine() {
-        }
-
-        public CoughMedicine(String brandName, String genericName, int price) {
-            super(brandName, genericName, price);
-        }
-
-    }
-
-    public class BodyPainMedicine extends Medicine {
-
-        public BodyPainMedicine() {
-        }
-
-        public BodyPainMedicine(String brandName, String genericName, int price) {
-            super(brandName, genericName, price);
-        }
-
-    }
-
-    public class AllergyMedicine extends Medicine {
-
-        public AllergyMedicine() {
-        }
-
-        public AllergyMedicine(String brandName, String genericName, int price) {
-            super(brandName, genericName, price);
-        }
-
-    }
-
-    public class HeadacheMedicine extends Medicine {
-
-        public HeadacheMedicine() {
-        }
-
-        public HeadacheMedicine(String brandName, String genericName, int price) {
-            super(brandName, genericName, price);
-        }
-
-    }
-
 }
+

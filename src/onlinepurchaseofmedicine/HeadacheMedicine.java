@@ -9,12 +9,12 @@ package onlinepurchaseofmedicine;
  *
  * @author catalvasfa_sd2022
  */
-public class BodyPainMedicine extends Medicine {
+public class HeadacheMedicine extends Medicine {
 
-    public BodyPainMedicine() {
+    public HeadacheMedicine() {
     }
 
-    public BodyPainMedicine(String brandName, String genericName, int price) {
+    public HeadacheMedicine(String brandName, String genericName, int price) {
         super(brandName, genericName, price);
     }
 

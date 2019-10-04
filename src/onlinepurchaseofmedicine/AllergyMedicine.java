@@ -9,6 +9,13 @@ package onlinepurchaseofmedicine;
  *
  * @author catalvasfa_sd2022
  */
-public class NewClass {
-    
+public class AllergyMedicine extends Medicine {
+
+    public AllergyMedicine() {
+    }
+
+    public AllergyMedicine(String brandName, String genericName, int price) {
+        super(brandName, genericName, price);
+    }
+
 }

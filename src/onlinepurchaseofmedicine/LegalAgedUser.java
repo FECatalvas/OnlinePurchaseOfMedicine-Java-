@@ -9,13 +9,7 @@ package onlinepurchaseofmedicine;
  *
  * @author catalvasfa_sd2022
  */
-public class BodyPainMedicine extends Medicine {
-
-    public BodyPainMedicine() {
-    }
-
-    public BodyPainMedicine(String brandName, String genericName, int price) {
-        super(brandName, genericName, price);
-    }
-
+public class LegalAgedUser extends User{
+    
+    
 }

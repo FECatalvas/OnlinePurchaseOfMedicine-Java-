@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Menu2 {
 
     User active_user = null;
-    Feature feat = new Feature();
+    User feat = new User();
     Scanner scanner = new Scanner(System.in);
     Inventory invent = new Inventory();
     Scanner scanner1 = new Scanner(System.in);
@@ -90,7 +90,7 @@ public class Menu2 {
         }
     }
 
-    public void decisionOrderCough() {
+    public void OrderCough() {
         Scanner Scanners = new Scanner(System.in);
         System.out.print("Enter brand name: ");
         String answer2 = Scanners.nextLine();
@@ -142,7 +142,7 @@ public class Menu2 {
         }
     }
 
-    public void decisionOrderHeadache() {
+    public void OrderHeadache() {
         Scanner Scanners = new Scanner(System.in);
         System.out.print("Enter Generic name: ");
         String answer2 = Scanners.nextLine();
@@ -179,7 +179,7 @@ public class Menu2 {
         }
     }
 
-    public void decisionOrderAllergy() {
+    public void OrderAllergy() {
         Scanner Scanners = new Scanner(System.in);
         System.out.print("Enter Generic name: ");
         String answer2 = Scanners.nextLine();
@@ -215,7 +215,7 @@ public class Menu2 {
         }
     }
 
-    public void decisionOrderBodyPain() {
+    public void OrderBodyPain() {
         Scanner Scanners = new Scanner(System.in);
         System.out.print("Enter Generic name: ");
         String answer2 = Scanners.nextLine();
@@ -252,7 +252,7 @@ public class Menu2 {
     }
 
     public void allMenu() {
-//        firstMenu();
+        firstMenu();
         secMenu();
     }
 
@@ -273,19 +273,19 @@ public class Menu2 {
         if (answer2 == 1) {
             System.out.println("MEDICINE FOR COUGH");
             invent.InventoryCough();
-            decisionOrderCough();
+            OrderCough();
         } else if (answer2 == 2) {
             System.out.println("MEDICINE FOR HEADACHE");
             invent.InventoryHeadache();
-            decisionOrderHeadache();
+            OrderHeadache();
         } else if (answer2 == 3) {
             System.out.println("MEDICINE FOR ALLERGY");
             invent.InventoryAllergy();
-            decisionOrderAllergy();
+            OrderAllergy();
         } else if (answer2 == 4) {
             System.out.println("MEDICINE FOR ALLERGY");
             invent.InventoryBodyPain();
-            decisionOrderBodyPain();
+            OrderBodyPain();
         }
     }
 
